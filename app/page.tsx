@@ -11,7 +11,7 @@ export default function Home() {
   const handlePurchase = (newPurchase: any) => setPurchases([...purchases, newPurchase])
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="max-w-5xl w-full items-center justify-between text-sm lg:flex">
+      <div className="max-w-5xl w-full items-center justify-between text-sm ">
         <Purchase handleConfirm={handlePurchase} />
       </div>
       <div>
